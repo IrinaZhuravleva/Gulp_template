@@ -1,0 +1,35 @@
+%sf-light{
+  font-family: 'SFProDisplay-Light', sans-serif;
+  font-weight: 300;
+}
+
+%sf-regular{
+  font-family: 'SFProDisplay-Regular', sans-serif;
+  font-weight: 400;
+}
+
+%sf-medium{
+  font-family: 'SFProDisplay-Medium', sans-serif;
+  font-weight: 500;
+}
+
+%sf-semibold{
+  font-family: 'SFProDisplay-Semibold', sans-serif;
+  font-weight: 600;
+}
+
+%sf-bold{
+  font-family: 'SFProDisplay-Bold', sans-serif;
+  font-weight: 700;
+}
+
+$text: black;
+$accent: yellow;
+
+$light-pink: #FEE6DA;
+$dark-gray: #68696D;
+$light-gray:#D0DECB;
+$light-blue: #D2E3F4;
+$dark-red: #BF4800;
+
+// border: 1px solid rgba(0, 0, 0, 0.42);

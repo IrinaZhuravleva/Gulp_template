@@ -1,0 +1,74 @@
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+*,*::before, *::after {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul, li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  font-size: inherit;
+}
+
+body {
+  min-width: 320px;
+  position: relative;
+  color: $text;
+
+  overflow-x: hidden;
+  @extend %sf-light;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: #000000;
+}
+
+h2 {
+  @extend %sf-medium;
+  font-style: normal;
+  font-size: 78px;
+  line-height: 93px;
+}
+
+.page-section {
+  background-image: url(../images/bg-2.jpg);
+  background-position: top center;
+  background-size: cover;
+
+  position: relative;
+
+  &__wrapper {
+    z-index: 1;
+    min-height: 100vh;
+    padding: 74px 0 50px;
+  }
+}
+
+.container {
+  max-width: 1270px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.button {
+  width: 180px;
+  height: 55px;
+  
+
+  background-color: #BF4800;
+  border-radius: 7px;
+}
